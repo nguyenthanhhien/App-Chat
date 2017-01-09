@@ -39,32 +39,37 @@
 }
 
 .avatar-large {
+    height: 250px;
   width: 60px;
   border-radius: 50%;
 }
 .friend {
+    padding-left: 20px;
     display: flex;
-    height: 64px;
+    height: 68px;
     position: relative;
 }
 
 .ListFriend {
-    padding-left: 20px;
+    padding-left: 0px;
 }
 
 #Friends {
+/*
     height: calc (100% - 90px);
     margin-top: 20px;
+*/
 }
 
 .col-friend {
+    width: calc(100% - 130px);
     padding: 10px;
     display: flex;
     flex-direction: column;
 }
 
 .text-name {
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .check-online {
@@ -500,3 +505,16 @@ input.textarea {
 /* update scrollbar offset if both scrolls are visible */
 .scrollbar-macosx > .scroll-element.scroll-x.scroll-scrolly_visible .scroll-element_size { left: -11px; }
 .scrollbar-macosx > .scroll-element.scroll-y.scroll-scrollx_visible .scroll-element_size { top: -11px; }
+.avatar-medium {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.result_search {
+    margin: 10px 0px;
+}
+
+.result_search:hover {
+    background-color: #333;
+}
